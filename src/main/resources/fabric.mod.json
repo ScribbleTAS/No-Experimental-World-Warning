@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "no-experimental-world-warning",
+  "version": "${version}",
+
+  "name": "No-Experimental-World-Warning-Mod",
+  "description": "Gets rid of the warning, when joining a world that uses experimental features",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.scribble.lp.LivingDangerouslyMod.ModContainer"
+    ]
+  },
+  "mixins": [
+    "no-experimental-world-warning.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
