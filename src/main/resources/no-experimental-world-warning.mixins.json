@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "de.scribble.lp.LivingDangerouslyMod.mixin",
+  "package": "de.scribble.tas.LivingDangerouslyMod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

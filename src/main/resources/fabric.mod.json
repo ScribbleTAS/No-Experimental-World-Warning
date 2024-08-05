@@ -6,11 +6,11 @@
   "name": "No-Experimental-World-Warning-Mod",
   "description": "Gets rid of the warning, when joining a world that uses experimental features",
   "authors": [
-    "Me!"
+    "Scribble"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://minecrafttas.com/",
+    "sources": "https://github.com/ScribbleTAS/No-Experimental-World-Warning"
   },
 
   "license": "MIT",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.scribble.lp.LivingDangerouslyMod.ModContainer"
+      "de.scribble.tas.LivingDangerouslyMod.ModContainer"
     ]
   },
   "mixins": [
